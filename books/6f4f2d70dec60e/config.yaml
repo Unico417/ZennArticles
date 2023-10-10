@@ -5,5 +5,7 @@ published: false
 price: 0 # 有料の場合200〜5000
 # 本に含めるチャプターを順番に並べましょう
 chapters:
-  - example1
-  - example2
+  - 001_000_comment_console
+  - 001_001_data
+  - 001_002_variables
+  - 001_003_calculate
