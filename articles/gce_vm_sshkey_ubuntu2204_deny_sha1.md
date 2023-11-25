@@ -15,7 +15,6 @@ Google Cloud Platform(GCP)の無料枠を試してみた時にハマったので
 
 1. 秘密鍵を生成する際に、`rsa` ではなく `ed25519` にする。
     ```powershell
-    # 例
     ssh-keygen -t ed25519 -C "user"
     ```
     次の2つが生成される。
@@ -26,7 +25,6 @@ Google Cloud Platform(GCP)の無料枠を試してみた時にハマったので
 
 3. ssh接続するときには、`id_ed25519` を使う。
     ```powershell
-    # 例
     ssh user@12.123.12.123 -i C:\id_ed25519
     ```
     
