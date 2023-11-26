@@ -1,5 +1,5 @@
 ---
-title: "GCEのUbuntu22.04でSSHができない"
+title: "GCEのUbuntu22.04でSSHができない場合"
 emoji: "⌨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["linux", "ubuntu", "googlecloudplatform"]
