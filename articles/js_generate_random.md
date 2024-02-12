@@ -26,7 +26,7 @@ const num = Math.random() * max;
 
 上記の場合、`Math.random()`が１になることはないので、値が最大値になることはありません。
 
-![](/images/js_generate_random/random_rangE.webp)
+![](/images/js_generate_random/random_range.webp)
 
 このままでは最大値を取らない欠陥乱数なので、
 最大値に設定した値に、１を足してあげます。
