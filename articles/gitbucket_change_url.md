@@ -108,8 +108,8 @@ java -jar ~/gitbucket/gitbucket.war --prefix=/gitbucket
 `/home/<user>/.gitbucket/gitbucket.conf` を書き換えます。
 
 ```conf diff
-- base_url=http://192.168.0.3
-+ base_url=http://192.168.0.3/gitbucket
+- base_url=http://localhost
++ base_url=http://localhost/gitbucket
 ```
 
 起動すると、`http://localhost/gitbucket` でアクセスできます。
